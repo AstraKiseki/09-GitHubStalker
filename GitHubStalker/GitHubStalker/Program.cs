@@ -33,6 +33,7 @@ namespace GitHubStalker
             Console.WriteLine("Would you like to look at their repositories?  Y/N");
 
             string RepoAnswer = Console.ReadLine();
+            RepoAnswer = RepoAnswer.ToUpper();
 
             if (RepoAnswer.Equals("Y"))
                 {
